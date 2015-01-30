@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9C064BD81A7C0A9A002679C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C064BD71A7C0A9A002679C9 /* main.m */; };
+		9C503A391A7C0DBB00EA8D50 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C503A381A7C0DBB00EA8D50 /* AbstractFactory.m */; };
+		9C503A3D1A7C0FFE00EA8D50 /* ConcreteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C503A3C1A7C0FFE00EA8D50 /* ConcreteFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		9C064BD41A7C0A9A002679C9 /* AbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C064BD71A7C0A9A002679C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C503A371A7C0C3C00EA8D50 /* AbstractFactory_UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AbstractFactory_UML.png; sourceTree = "<group>"; };
+		9C503A381A7C0DBB00EA8D50 /* AbstractFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		9C503A3A1A7C0DD800EA8D50 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		9C503A3B1A7C0FFE00EA8D50 /* ConcreteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteFactory.h; sourceTree = "<group>"; };
+		9C503A3C1A7C0FFE00EA8D50 /* ConcreteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		9C064BD61A7C0A9A002679C9 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				9C503A371A7C0C3C00EA8D50 /* AbstractFactory_UML.png */,
 				9C064BD71A7C0A9A002679C9 /* main.m */,
+				9C503A381A7C0DBB00EA8D50 /* AbstractFactory.m */,
+				9C503A3A1A7C0DD800EA8D50 /* AbstractFactory.h */,
+				9C503A3B1A7C0FFE00EA8D50 /* ConcreteFactory.h */,
+				9C503A3C1A7C0FFE00EA8D50 /* ConcreteFactory.m */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C503A391A7C0DBB00EA8D50 /* AbstractFactory.m in Sources */,
+				9C503A3D1A7C0FFE00EA8D50 /* ConcreteFactory.m in Sources */,
 				9C064BD81A7C0A9A002679C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +246,7 @@
 				9C064BDD1A7C0A9A002679C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

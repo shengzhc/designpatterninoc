@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ConcreteFactory.h"
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[])
+{
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        ConcreteFactory1 *f1 = [[ConcreteFactory1 alloc] init];
+        ConcreteFactory2 *f2 = [[ConcreteFactory2 alloc] init];
+        [f1 run];
+        [f2 run];
     }
+
     return 0;
 }
