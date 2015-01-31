@@ -7,11 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Builder.h"
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[])
+{
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Director *d = [[Director alloc] init];
+        ConcreteBuilder *b = [[ConcreteBuilder alloc] init];
+        printf("Building parts...\n");
+        [d construct:b];
+        printf([b.product.description UTF8String]);
+        printf("Finishing building Parts...\n");
     }
     return 0;
 }
