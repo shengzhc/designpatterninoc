@@ -7,11 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Singleton.h"
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[])
+{
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+
+        Singleton *s1 = [Singleton instance];
+        Singleton *s2 = [Singleton instance];
+        
+        if (s1 == s2) {
+            printf("Objects are the same instance\n");
+        } else {
+            printf("Objects are different\n");
+        }
     }
     return 0;
 }
