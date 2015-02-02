@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9C05D8221A7FFA36004CC092 /* Singleton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Singleton; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C05D8251A7FFA36004CC092 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C05D82D1A7FFAAB004CC092 /* Singleton_UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Singleton_UML.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		9C05D8241A7FFA36004CC092 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				9C05D82D1A7FFAAB004CC092 /* Singleton_UML.png */,
 				9C05D8251A7FFA36004CC092 /* main.m */,
 			);
 			path = Singleton;

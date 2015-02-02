@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		9C05D8161A7FF643004CC092 /* Prototype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prototype.h; sourceTree = "<group>"; };
 		9C05D8171A7FF643004CC092 /* Prototype.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prototype.m; sourceTree = "<group>"; };
+		9C05D82C1A7FFA88004CC092 /* Prototype_UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prototype_UML.png; sourceTree = "<group>"; };
 		9CAF19511A7C5A9E009C7560 /* Prototype */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Prototype; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAF19541A7C5A9E009C7560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +61,7 @@
 		9CAF19531A7C5A9E009C7560 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				9C05D82C1A7FFA88004CC092 /* Prototype_UML.png */,
 				9CAF19541A7C5A9E009C7560 /* main.m */,
 				9C05D8161A7FF643004CC092 /* Prototype.h */,
 				9C05D8171A7FF643004CC092 /* Prototype.m */,
