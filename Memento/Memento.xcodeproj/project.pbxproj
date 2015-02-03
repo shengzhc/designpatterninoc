@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C1510D21A814C920097A7DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1510D11A814C920097A7DF /* main.m */; };
+		9C1510DB1A814EBC0097A7DF /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1510DA1A814EBC0097A7DF /* Memento.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		9C1510CE1A814C920097A7DF /* Memento */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Memento; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1510D11A814C920097A7DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C1510D81A814CB30097A7DF /* Memento_UML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Memento_UML.png; sourceTree = "<group>"; };
+		9C1510D91A814EBC0097A7DF /* Memento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		9C1510DA1A814EBC0097A7DF /* Memento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				9C1510D81A814CB30097A7DF /* Memento_UML.png */,
 				9C1510D11A814C920097A7DF /* main.m */,
+				9C1510D91A814EBC0097A7DF /* Memento.h */,
+				9C1510DA1A814EBC0097A7DF /* Memento.m */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C1510D21A814C920097A7DF /* main.m in Sources */,
+				9C1510DB1A814EBC0097A7DF /* Memento.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
